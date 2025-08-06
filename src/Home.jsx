@@ -69,8 +69,8 @@ function Home() {
   const questions = [
     {
       id: 1,
-      question: "What is Civix?",
-      answer: "Civix is a civic engagement platform that allows citizens to report and track local issues in their communities, such as potholes, broken streetlights, and garbage collection problems."
+      question: "What is CityAlert?",
+      answer: "CityAlert is a civic engagement platform that allows citizens to report and track local issues in their communities, such as potholes, broken streetlights, and garbage collection problems."
     },
     {
       id: 2,
@@ -79,13 +79,13 @@ function Home() {
     },
     {
       id: 3,
-      question: "Is Civix free to use?",
-      answer: "Yes, Civix is completely free for citizens to use. There are no hidden fees or charges."
+      question: "Is CityAlert free to use?",
+      answer: "Yes, CityAlert is completely free for citizens to use. There are no hidden fees or charges."
     },
     {
       id: 4,
       question: "How can I track the status of my report?",
-      answer: "You can track the status of your report through the Civix app or website. You will receive notifications when your issue is reviewed and resolved."
+      answer: "You can track the status of your report through the CityAlert app or website. You will receive notifications when your issue is reviewed and resolved."
     },
     {
       id: 5,
@@ -152,8 +152,8 @@ function Home() {
       />
 
       <Helmet>
-        <title>Civix | Report Local Issues & Improve Your Community</title>
-        <meta name="description" content="Civix helps citizens report and track local civic issues like potholes, broken lights, and garbage collection problems. Make your city better today!" />
+        <title>CityAlert | Report Local Issues & Improve Your Community</title>
+        <meta name="description" content="CityAlert helps citizens report and track local civic issues like potholes, broken lights, and garbage collection problems. Make your city better today!" />
       </Helmet>
 
 
@@ -175,7 +175,7 @@ function Home() {
                     </span>
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl leading-relaxed">
-                    Civix helps citizens report and track local civic issues like potholes, broken lights, and garbage collection problems. Join thousands making their communities better.
+                    CityAlert helps citizens report and track local civic issues like potholes, broken lights, and garbage collection problems. Join thousands making their communities better.
                   </p>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-3 min-[400px]:flex-row">
@@ -238,7 +238,7 @@ function Home() {
               </div>
               <div className="flex items-center justify-center animate-on-scroll">
                 <div className="relative w-full max-w-[400px] aspect-[4/3] overflow-hidden rounded-xl border shadow-2xl transition-all duration-500 hover:shadow-3xl hover:scale-[1.02] bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900">
-                  <img src="pexels.jpg" alt="Civix App Interface showing issue reporting" className="object-cover w-full h-full" loading="lazy" />
+                  <img src="pexels.jpg" alt="CityAlert App Interface showing issue reporting" className="object-cover w-full h-full" loading="lazy" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>
                   <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-3 py-1">
                     <span className="text-xs font-medium text-gray-700">✅ Live Demo</span>
@@ -270,7 +270,7 @@ function Home() {
           </h2>
           
           <p className="text-slate-600 dark:text-slate-400 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            Civix provides a comprehensive platform for citizens and city workers to collaborate 
+            CityAlert provides a comprehensive platform for citizens and city workers to collaborate 
             on local issues and build stronger communities together.
           </p>
         </div>
@@ -337,7 +337,7 @@ function Home() {
 
 
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Simple process, powerful results</h2>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">Civix makes it easy to report issues and track their resolution in just a few simple steps.</p>
+                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">CityAlert makes it easy to report issues and track their resolution in just a few simple steps.</p>
               </div>
             </motion.div>
             <div className="flex justify-center">
@@ -383,7 +383,7 @@ function Home() {
           Frequently Asked Questions
         </h2>
         <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-          Find answers to commonly asked questions about Civix platform features and services.
+          Find answers to commonly asked questions about CityAlert platform features and services.
         </p>
       </div>
       <div className="w-full mt-8 max-w-3xl mx-auto">
@@ -467,7 +467,7 @@ function Home() {
               <div className="flex flex-col justify-center space-y-4 animate-on-scroll">
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight bg-gradient-to-tr from-[#7cf9ff] to-[#0037ff] bg-clip-text text-transparent">Ready to improve your community?</h2>
-                  <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">Download the Civix app today and start making a difference in your neighborhood.</p>
+                  <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">Download the CityAlert app today and start making a difference in your neighborhood.</p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link to="/download-ios">
@@ -528,20 +528,13 @@ function Home() {
                   <div className="flex flex-col items-center justify-center bg-white dark:bg-[#111827] border rounded-xl shadow-xl transition-transform duration-500 hover:scale-[1.02] hover:shadow-2xl p-6">
                     <img
                       src="/downloadCivixQrCode.png"
-                      alt="Download Civix App QR Code"
+                      alt="Download CityAlert App QR Code"
                       className="w-48 h-48 object-contain mb-4"
                       loading="lazy"
                     />
                     <p className="text-center text-sm font-medium text-gray-800 dark:text-gray-300">
-                      Civix App on Mobile
+                      CityAlert App on Mobile
                     </p>
-                  </div>
-
-                  {/* Floating Icon */}
-                  <div className="absolute -bottom-5 -left-5 h-16 w-16 rounded-lg border bg-white dark:bg-[#111827] p-2 shadow-lg transition-transform duration-300 hover:scale-110">
-                    <div className="flex items-center justify-center h-full w-full rounded bg-emerald-100 dark:bg-emerald-900">
-                      <img src={favv} alt="" style={{width : "35px"}} />
-                    </div>
                   </div>
 
                 </div>

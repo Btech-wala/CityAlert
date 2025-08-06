@@ -6,18 +6,9 @@ import logoF from './logoo.svg';
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
-  const socialLinks = [
-    {
-      name: "GitHub",
-      href: "https://github.com/HarshS16/Civix",
-      icon: Github,
-      color: "hover:text-emerald-500 dark:hover:text-green-400",
-    },
-  ];
-
   const footerLinks = [
     {
-      title: "Civix",
+      title: "CityAlert",
       links: [
         { name: "About", href: "/about", icon: Info, color: "text-emerald-500" },
         { name: "Features", href: "/#features", icon: Star, color: "text-emerald-500" },
@@ -28,7 +19,6 @@ const Footer = () => {
       links: [
         { name: "Privacy", href: "/privacy", icon: ShieldCheck, color: "text-emerald-500" },
         { name: "Terms", href: "/terms", icon: ScrollText, color: "text-emerald-500" },
-        { name: "Our contributors", href: "https://github.com/HarshS16/Civix/graphs/contributors", icon: UsersIcon, color: "text-emerald-500" },
       ],
     },
   ];
@@ -39,24 +29,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2">
-              <img src={logoF} alt="Civix Logo" style={{ width: '90px' }} />
             </div>
             <p className="mt-4 max-w-md text-sm">
-              Civix is designed to empower and inform citizens. Stay informed, make better decisions, and explore features built for civic engagement.
+              Cityalert is designed to empower and inform citizens. Stay informed, make better decisions, and explore features built for civic engagement.
             </p>
-            <div className="flex space-x-4 mt-6">
-              {socialLinks.map((social) => (
-                <a
-                  key={social.name}
-                  href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`social-icon ${social.color}`}
-                >
-                  <social.icon className="w-6 h-6" />
-                </a>
-              ))}
-            </div>
+          
           </div>
 
           {footerLinks.map((section) => (
@@ -85,17 +62,17 @@ const Footer = () => {
         <div className="border-t border-gray-200 dark:border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-sm">
             <div className="text-center md:text-left text-muted-foreground dark:text-muted-foreground">
-              <p>© {currentYear} Civix. All rights reserved.</p>
+              <p>© {currentYear} Cityalert. All rights reserved.</p>
             </div>
             <div className="text-muted-foreground dark:text-muted-foreground">
-              Built with ❤️ by{" "}
+              Built by{" "}
               <a
-                href="https://github.com/HarshS16/Civix"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-emerald-500 hover:text-emerald-600 dark:hover:text-green-400 transition-colors"
               >
-                Harsh S.
+                Raju K.
               </a>
             </div>
           </div>

@@ -1100,7 +1100,7 @@ const CivicEducation = () => {
                           Take Action
                         </h5>
                         <p className="text-sm text-gray-600">
-                          Use the Civix app to report issues and engage with your community
+                          Use the CityAlert app to report issues and engage with your community
                         </p>
                       </div>
                     </div>

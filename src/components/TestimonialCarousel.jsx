@@ -2,18 +2,18 @@ import React, { useState, useEffect, useRef } from "react";
 
 const testimonials = [
   {
-    name: "Aarav Patel",
+    name: "Aarav",
     role: "Resident, Bangalore",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
     message:
-      "Civix helped me report a huge pothole near my street. The issue was resolved in 3 days!",
+      "CityAlert helped me report a huge pothole near my street. The issue was resolved in 3 days!",
   },
   {
     name: "Meera Sharma",
     role: "Teacher, Chennai",
     image: "https://randomuser.me/api/portraits/women/45.jpg",
     message:
-      "I love how simple and fast Civix is. Clean streets and working streetlights again!",
+      "I love how simple and fast CityAlert is. Clean streets and working streetlights again!",
   },
   {
     name: "Ravi Kumar",
@@ -27,7 +27,7 @@ const testimonials = [
     role: "Designer, Kolkata",
     image: "https://randomuser.me/api/portraits/women/60.jpg",
     message:
-      "Being able to track my report's status makes all the difference. Fantastic work Civix!",
+      "Being able to track my report's status makes all the difference. Fantastic work CityAlert!",
   },
   {
     name: "Sanjay Singh",
@@ -41,7 +41,7 @@ const testimonials = [
     role: "Entrepreneur, Mumbai",
     image: "https://randomuser.me/api/portraits/women/72.jpg",
     message:
-      "Makes community participation simple and effective. Love Civix!",
+      "Makes community participation simple and effective. Love CityAlert!",
   },
 ];
 

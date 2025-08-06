@@ -94,7 +94,7 @@ function About() {
     {
       number: '02',
       title: 'Route & Process',
-      description: 'Civix automatically routes your report to the relevant department'
+      description: 'CityAlert automatically routes your report to the relevant department'
     },
     {
       number: '03',
@@ -141,7 +141,7 @@ function About() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.4, duration: 0.8 }}
             >
-              Civix helps citizens report and track local civic issues like potholes, 
+              CityAlert helps citizens report and track local civic issues like potholes, 
               broken lights, and garbage collection problems with unprecedented ease and transparency.
             </motion.p>
 
@@ -223,9 +223,9 @@ function About() {
         <motion.section variants={itemVariants} className="why-section">
           <div className="why-content">
             <div className="why-text">
-              <h2 className="section-title">Why Choose Civix?</h2>
+              <h2 className="section-title">Why Choose CityAlert?</h2>
               <p className="why-description">
-                Civix empowers citizens by simplifying the process to voice concerns and foster 
+                CityAlert empowers citizens by simplifying the process to voice concerns and foster 
                 positive change in communities. We connect the public with civic authorities for 
                 enhanced governance, transparency, and real results that matter.
               </p>

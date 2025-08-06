@@ -14,8 +14,8 @@ const DownloadAndroid = () => {
 
   const faqs = [
     {
-      question: "Is the Civix app free to use?",
-      answer: "Yes, Civix is completely free for all users. We believe civic engagement should be accessible to everyone."
+      question: "Is the CityAlert app free to use?",
+      answer: "Yes, CityAlert is completely free for all users. We believe civic engagement should be accessible to everyone."
     },
     {
       question: "Is this available on the Play Store?",
@@ -23,7 +23,7 @@ const DownloadAndroid = () => {
     },
     {
       question: "Will it work on all Android devices?",
-      answer: "Yes, Civix is compatible with most Android devices running version 8.0 and above, covering 95% of active Android devices."
+      answer: "Yes, CityAlert is compatible with most Android devices running version 8.0 and above, covering 95% of active Android devices."
     },
     {
       question: "How does location-based services work?",
@@ -78,7 +78,7 @@ const DownloadAndroid = () => {
            
             
             <h1 className="text-5xl lg:text-7xl font-bold bg-gradient-to-r from-gray-900 via-green-800 to-emerald-700 dark:from-white dark:via-green-300 dark:to-emerald-300 bg-clip-text text-transparent mb-6">
-              Civix for Android
+              CityAlert for Android
             </h1>
             
             <p className="text-xl lg:text-2xl text-gray-600 dark:text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
@@ -185,7 +185,7 @@ const DownloadAndroid = () => {
               Frequently Asked Questions
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Everything you need to know about Civix for Android.
+              Everything you need to know about CityAlert for Android.
             </p>
           </div>
           
@@ -231,7 +231,7 @@ const DownloadAndroid = () => {
           </h2>
           
           <p className="text-xl text-green-100 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Join thousands already making their voices heard. Be the first to know when Civix launches on Android.
+            Join thousands already making their voices heard. Be the first to know when CityAlert launches on Android.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

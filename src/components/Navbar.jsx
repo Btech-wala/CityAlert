@@ -78,7 +78,6 @@ import { useNavigate, Link } from 'react-router-dom';
 import Switch from '../DarkModeToggle';
 import { jwtDecode } from 'jwt-decode';
 import { useAuth } from '@clerk/clerk-react';
-import logo from './logoo.svg';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -165,10 +164,6 @@ const Navbar = () => {
       title: "Contact Us",
       href: "/contact"
     },
-    {
-      title: "Our contributors",
-      href: "/contributors"
-    },
 
   ]
 
@@ -178,7 +173,6 @@ const Navbar = () => {
         <button onClick={() => { setMobileMenuOpen(false); navigate('/'); }} className="flex items-center gap-2 hover:text-emerald-500 transition-colors duration-300" style={{ width: "74px", marginLeft: "21px" }}
         >
 
-          <img src={logo} alt="" />
           <span id="logo" className="text-xl font-bold" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>  </span>
         </button>
 

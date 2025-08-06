@@ -32,7 +32,6 @@ import Resources from './Pages/Resources';
 import MyComplaints from './Pages/MyComplaints';
 import CivicEducation from './Pages/CivicEducation';
 import CivicSimulator from './Pages/CivicSimulator';
-import Contributors from './Pages/Contributors';
 import ScrollToTopOnRouteChange from './components/ScrollToTopOnRouteChange';
 
 const App = () => {
@@ -92,7 +91,6 @@ const App = () => {
             <Route path="/profile" element={<Profile />} />
             <Route path="/resources" element={<Resources />} />
             <Route path="/complaints" element={<MyComplaints />} />
-            <Route path="/contributors" element={<Contributors />} />
 
             {/* Protected Routes */}
             <Route

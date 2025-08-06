@@ -248,7 +248,7 @@ function Contact() {
                       href="mailto:support@civix.com"
                       className="text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors duration-200 font-medium"
                     >
-                      support@civix.com
+                      support@cityAlert.com
                     </a>
                   </div>
                 </div>

@@ -7,7 +7,7 @@ import csrfManager from "../utils/csrfManager";
 const AdminDashboard = () => {
   const navigate = useNavigate();
   const [issues, setIssues] = useState([]);
-
+  
   // Animation variants for the page container
   const pageVariants = {
     initial: { opacity: 0, y: 20 },
